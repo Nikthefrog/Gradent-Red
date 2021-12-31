@@ -1,0 +1,45 @@
+/**
+ * @name Gradent Red Theme
+ * @author Nikthefrog#9810
+ * @version 1.0.0
+ * @description Nice red Metallic Theme
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @authorId 512753044190920711
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('data:image/png;base64,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');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: var(--background-image);
+  --popout-modal-blur: 5px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.38;
+  --left-brightness: 0.1;
+  --middle-brightness: 0.1;
+  --right-brightness: 0.1;
+  --popout-modal-brightness: 0.1;
+  --gradient-primary: 233,30,99;
+  --gradient-secondary: 244,67,54;
+  --link-colour: #F4D300;
+  --scrollbar-colour: rgb(255,0,0,1);
+  --gradient-direction: 0deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Whitney;
+  --window-padding: 10px;
+  --window-roundness: 25px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+
+
